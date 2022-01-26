@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Mochiy+Pop+P+One&family=Pacifico&display=swap');
+body{
+    background-image: linear-gradient(black,purple);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+
+}
+nav ul{
+    background-color: black;
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+
+}
+/* .br1{
+    display: flex;
+    align-items:center;
+    padding-left: 25px;
+    font-family: 'Pacifico', regular;
+}
+.br2{
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    font-family: 'Pacifico', regular; */
+
+.br0{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.brand{
+    padding-left: 670px;
+    display: flex;
+    size: 40px;
+    
+
+}
+.container{
+    min-height: 72vh;
+
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 14px;
+    padding: 40px;
+    
+}
+.bottom{
+    position: sticky;
+    height: 150px;
+    background-image: linear-gradient(rgb(92, 4, 92),black);
+    color: rgb(98, 74, 114);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;}
+#ProgressBar{
+    width: 80vw;
+
+}
+.icons{
+    margin-top: 14px;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+   height: 75px;
+   display: flex;
+   background-image: linear-gradient(to right,rgb(103, 7, 122),rgb(54, 2, 54));
+   width: 120%;
+   margin: 12px 0;
+   justify-content: space-around;
+   align-items: center;
+   border-radius: 12px;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+ h1{
+    
+    position: static;
+    font-size: 2.5rem;
+}
+.songItem img{
+width: 70px;
+margin: 0 23px;
+border-radius: 30px;
+}
+.songlistplay i{
+    margin: 0 23px;
+}
+i{
+    cursor: pointer;
+}
